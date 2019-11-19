@@ -1,0 +1,16 @@
+Host *
+	ForwardAgent no
+	ForwardX11 no
+	ForwardX11Trusted yes
+	User pujabp
+	Port 22
+	Protocol 2
+	ServerAliveInterval 60
+	ServerAliveCountMax 30
+
+#caen
+Host pbj
+	HostName login.engin.umich.edu
+	User pujabp
+	Compression yes
+
